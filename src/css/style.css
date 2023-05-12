@@ -13,7 +13,7 @@ img {
     justify-content: center;
     opacity: 2;
     visibility: visible;
-}
+} 
 header {
     color: white;
     text-align: center;
@@ -58,6 +58,9 @@ button:hover {
     transform: scale(1);
 }
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     color: whitesmoke;
     text-align: center;
     font-style: italic;

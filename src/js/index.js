@@ -18,7 +18,8 @@ console.log(dataA)
 
 
  btn.addEventListener('click', ()=>{
-    let data = venc.value +' 00:00:00'
+    let data = venc.value + ' 00:00:00'   
+    console.log(data)
     let res = Math.abs(new Date(data) - new Date(dataA)) //MILISSEGUNDOS
     
     res = res / 1000 //SEGUNDO
